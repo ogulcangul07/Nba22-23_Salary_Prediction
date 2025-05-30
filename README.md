@@ -1,36 +1,39 @@
 # Nba22-23_Salary_Prediction
 # Veri Kaynağı
+Veri seti Kaggle üzerinden temin edilmiştir:
 https://www.kaggle.com/datasets/jamiewelsh2/nba-player-salaries-2022-23-season
 # Sütunların Açıklaması
-**Player Name**: Oyuncu adı  
-**Team**: Oyuncunun oynadığı takım  
-**Salary**: Oyuncunun maaşı  
-**Position**: Oyuncunun pozisyonu  
-**Age**: Oyuncunun yaşı  
-**GP**: Oyuncunun sezon boyunca oynadığı maç sayısı  
-**MP**: Oyuncunun maç başı dakika ortalaması  
-**FG**: Oyuncunun maç başı basket (isabetli şut) ortalaması  
-**FG%**: Oyuncunun genel şut isabet yüzdesi  
-**3P**: Oyuncunun maç başı 3 sayılık basket ortalaması  
-**3P%**: Oyuncunun genel 3 sayılık atış isabet yüzdesi  
-**2P**: Oyuncunun maç başı 2 sayılık basket ortalaması  
-**2P%**: Oyuncunun genel 2 sayılık atış isabet yüzdesi  
-**eFG%**: Şut isabet yüzdesinin üçlüklerin değeriyle birlikte hesaplanmış hali  
-**FT**: Oyuncunun maç başı serbest atıştan isabetli sayı ortalaması  
-**FT%**: Oyuncunun Serbest atış isabet yüzdesi  
-**TRB**: Oyuncunun maç başı ribaunt ortalaması  
-**AST**: Oyuncunun maç başı asist ortalaması  
-**STL**: Oyuncunun maç başı top çalma ortalaması  
-**BLK**: Oyuncunun maç başı blok ortalaması  
-**TOV**: Oyuncunun maç başı top kaybı ortalaması  
-**FOUL**: Oyuncunun maç başı faul ortalaması  
-**PTS**: Oyuncunun maç başı sayı ortalaması  
-**PER (Player Efficiency Rating)**: Oyuncunun maç başına genel verimliliğini ölçen bir istatistik  
-**TS% (True Shooting Percentage)**: Atış verimliliğini, 2 sayılık, 3 sayılık ve serbest atışları birlikte değerlendirerek ölçen yüzdelik değer  
-**USG% (Usage Percentage)**: Oyuncunun takım hücumlarını kullanım oranı  
-**WS (Win Shares)**: Oyuncunun takıma galibiyet katkısını temsil eden bir değer  
-**BPM (Box Plus/Minus)**: Oyuncunun 100 pozisyon başına takıma kattığı skor farkı  
-**VORP (Value Over Replacement Player)**: Oyuncunun sıradan bir yedek oyuncuya göre takıma sağladığı değer
+| Sütun Adı     | Açıklama                                                  |
+| ------------- | --------------------------------------------------------- |
+| `Player Name` | Oyuncunun adı                                             |
+| `Team`        | Oyuncunun takımı                                          |
+| `Salary`      | Oyuncunun sezonluk maaşı                                  |
+| `Position`    | Oyuncunun pozisyonu                                       |
+| `Age`         | Oyuncunun yaşı                                            |
+| `GP`          | Oynadığı maç sayısı                                       |
+| `MP`          | Maç başına ortalama dakika                                |
+| `FG`          | Maç başına isabetli şut ortalaması                        |
+| `FG%`         | Genel şut isabet yüzdesi                                  |
+| `3P`          | Maç başına 3 sayılık basket ortalaması                    |
+| `3P%`         | 3 sayılık atış isabet yüzdesi                             |
+| `2P`          | Maç başına 2 sayılık basket ortalaması                    |
+| `2P%`         | 2 sayılık atış isabet yüzdesi                             |
+| `eFG%`        | Üç sayılık atışların değeriyle düzeltilmiş isabet yüzdesi |
+| `FT`          | Maç başına serbest atıştan isabetli sayı                  |
+| `FT%`         | Serbest atış isabet yüzdesi                               |
+| `TRB`         | Maç başına ribaunt                                        |
+| `AST`         | Maç başına asist                                          |
+| `STL`         | Maç başına top çalma                                      |
+| `BLK`         | Maç başına blok                                           |
+| `TOV`         | Maç başına top kaybı                                      |
+| `FOUL`        | Maç başına faul                                           |
+| `PTS`         | Maç başına sayı                                           |
+| `PER`         | Oyuncu verimlilik puanı                                   |
+| `TS%`         | Gerçek şut yüzdesi (2P, 3P ve FT dahil)                   |
+| `USG%`        | Hücum kullanım oranı                                      |
+| `WS`          | Galibiyete katkı puanı                                    |
+| `BPM`         | 100 pozisyon başına takım farkına katkı                   |
+| `VORP`        | Ortalama bir yedek oyuncuya göre değer                    |
 # Proje Amacı  
 NBA oyuncularının performans istatistiklerini kullanarak maaş tahmini yapan bir makine öğrenmesi modeli geliştirmek. 
 # Lisans  
