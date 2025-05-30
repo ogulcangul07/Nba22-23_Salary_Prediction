@@ -1,4 +1,4 @@
-# Nba22-23_Salary_Prediction
+# Nba Salary_Prediction
 # Veri Kaynağı
 Veri seti Kaggle üzerinden temin edilmiştir:
 https://www.kaggle.com/datasets/jamiewelsh2/nba-player-salaries-2022-23-season
