@@ -2,6 +2,7 @@
 # Veri Kaynağı
 Veri seti Kaggle üzerinden temin edilmiştir:
 https://www.kaggle.com/datasets/jamiewelsh2/nba-player-salaries-2022-23-season
+
 Projede kullanılan, ön işleme ve temizlik adımlarından geçirilmiş veri setinin son haline proje dosyaları arasında yer alan nba_data.csv dosyasından erişebilirsiniz.
 # Sütunların Açıklaması
 | Sütun Adı     | Açıklama                                                  |
